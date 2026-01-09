@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quantico";
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+li a:hover{
+    color: orange;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+header{
+    background-color: #272C3D;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    width: 241px;
+    height: 30px;
+    border-radius: 5px;
+    background: #404864;
+    border: none;
+
+}
+select{
+    width: 165px;
+    height: 30px;
+    border: none;
+    background-color: #0f1424;
+    color: white;
+}
+.IN{
+    display: flex;
+    gap: 20px;
+}
+.img{
+    height: 554px;
+    background-image: url(./img/Bg.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.ImG{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Wi{
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    color: white;
+}
+footer{
+    background-color: #272C3D;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
