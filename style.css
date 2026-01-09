@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.BTN-sign{
+    width: 108px;
+    height: 42px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: bisque;
+}
+header nav ul li a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    list-style: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+
+}
+.Contact{
+    width: 108px;
+    height: 42px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: green;
+    color: white;
+    margin-top: 40px;
+}
+.WINS{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+
+}
+.WINS h4{
+    font-size: 36px;
+}
+.WINS h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.WINS p{
+    font-size: 20px;
+    color: gray;
+    margin-top: 20px;
+}
+.RR{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.Card{
+    width: 425px;
+    height: 194px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: white;
+    box-shadow: 0px 8px 20px 0px #00000024;
+    box-sizing: border-box;
+    margin: 40px;
+    align-items: center;
+    padding: 40px;
+    transition: 0.5s;
+}
+.Card h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.Card:hover{
+    background-color: bisque;
+}
+.Ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: space-around space-around;
+}
+.new h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;}
+    .new p{
+        font-size: 18px;
+        color: gray;
+        margin-top: 10px;
+    }   
+    .new h1{
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .Fonty{
+        font-size: 48px;
+        text-align: center;
+    }
+    .Card2{
+        width: 185px;
+        height: 182px;
+        top: 2554px;
+        left: 290px;
+        background: white;
+        box-shadow: 0px 13px 16px 0px #0000001A;
+        border-radius: 60px 0px 60px 0px;
+        align-items: center;
+        text-align: center;
+        font-size: 48px;
+        padding-top: 40px;
+        margin: 50px;
+        transition: 0.5s;
+
+    }
+    .Ota2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Card2:hover{
+        background-color: bisque;
+    }
